@@ -21,9 +21,10 @@ namespace LearnCSharp {
         private static void PrintNumbersBetween(int MIN, int MAX) {
 
             for (int x = MIN; x <= MAX; x++)
-            {
+                if (x % 2 == 0 || x % 3 == 0 && x != 3 && x != 2)
+                {
                 Console.WriteLine(x.ToString());
-            }
+                }
         }
         private static void Pause() => Console.ReadKey();
       
