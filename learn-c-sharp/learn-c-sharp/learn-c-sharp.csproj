@@ -7,4 +7,8 @@
     <AssemblyName>LearnCSharp</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\Andrew\Desktop\Program.cs" Link="Program.cs" />
+  </ItemGroup>
+
 </Project>
