@@ -12,9 +12,14 @@ namespace LearnCSharp {
             Console.WriteLine("Please enter a MAX value:");
             int MAX = Convert.ToInt32(Console.ReadLine());
 
+            PrintNumbersBetween(MIN, MAX);
+
             Pause();
         }
 
+        private static void PrintNumbersBetween(int min, int max) {
+            throw new NotImplementedException();
+        }
         private static void Pause() => Console.ReadKey();
 
         private static void PrintIntroduction() {
