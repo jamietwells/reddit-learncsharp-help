@@ -12,19 +12,27 @@ namespace LearnCSharp {
             Console.WriteLine("Please enter a MAX value:");
             int MAX = Convert.ToInt32(Console.ReadLine());
 
-
+            
             PrintNumbersBetween(MIN, MAX);
 
             Pause();
         }
 
-        private static void PrintNumbersBetween(int MIN, int MAX) {
+        private static bool IsPrime(int x)
+        {
+            
+                return true;
+        }
 
-            for (int x = MIN; x <= MAX; x++)
-                if (x % 2 == 0 || x % 3 == 0 && x != 3 && x != 2)
-                {
+        private static void PrintNumbersBetween(int MIN, int MAX)
+        {
+
+            for (int x = MIN; x <= MAX; x++) { 
+            if (IsPrime(x)) ;
+            {
                 Console.WriteLine(x.ToString());
-                }
+            }
+        }
         }
         private static void Pause() => Console.ReadKey();
       
