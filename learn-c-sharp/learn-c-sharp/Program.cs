@@ -21,6 +21,9 @@ namespace LearnCSharp {
                 Pause();
         }
 
+        private static void PrintNumbersBetween(int min, int max) {
+            throw new NotImplementedException();
+        }
         private static void Pause() => Console.ReadKey();
 
         private static void PrintIntroduction() {
