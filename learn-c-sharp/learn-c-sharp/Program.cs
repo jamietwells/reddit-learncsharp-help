@@ -12,7 +12,13 @@ namespace LearnCSharp {
             Console.WriteLine("Please enter a MAX value:");
             int MAX = Convert.ToInt32(Console.ReadLine());
 
-            Pause();
+            int x;
+            for (x = MIN; x <= MAX; x++)
+            {
+                Console.WriteLine(x.ToString());
+            }
+
+                Pause();
         }
 
         private static void Pause() => Console.ReadKey();
