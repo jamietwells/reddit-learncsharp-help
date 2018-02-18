@@ -8,6 +8,7 @@ namespace LearnCSharp {
             Console.WriteLine("=====================================");
             Console.WriteLine("Prime Factorisation");
             Console.WriteLine("=====================================");
+            Console.ReadKey();
         }
     }
 }
