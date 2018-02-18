@@ -12,8 +12,8 @@ namespace LearnCSharp {
             Console.WriteLine("Please enter a MAX value:");
             int MAX = Convert.ToInt32(Console.ReadLine());
 
-            int x;
-            for (x = MIN; x <= MAX; x++)
+            
+            for (int x = MIN; x <= MAX; x++)
             {
                 Console.WriteLine(x.ToString());
             }
