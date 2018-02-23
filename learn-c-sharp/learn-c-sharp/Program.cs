@@ -106,7 +106,7 @@ namespace LearnCSharp {
             while (!int.TryParse(Console.ReadLine(), out result)) {
                 Console.WriteLine("Please enter an integer value only");
             }
-            return result; ;
+            return result;
         }
     }
 
