@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace LearnCSharp {
-
-    class Program {
-
-        static void Main(string[] args) {
-            Console.WriteLine("Hello World!");
+namespace project2 {
+    public class Program {
+        public static void Main(string[] args) {
+            new CensusReader("census.txt")
+                .ReadFile()
+                .PrintData(Console.WriteLine);
         }
     }
 }
